@@ -1,0 +1,48 @@
+body {
+    background-color: #f3f3f3;
+}
+
+.main-container {
+    text-align: center;
+    width: 100%;
+    max-width: 1300px;
+    margin: 10px auto;
+}
+
+.main-card-container {
+    margin-top: 100px;
+}
+
+.main-input-container {
+    margin-top: 20px;
+}
+
+.main-button-container {
+    margin-top: 20px;
+}
+
+.main-container .main-topic {
+    font-weight: "bold";
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.main-container .main-text1 {
+    font-weight: "bold";
+    font-size: 25px;
+    margin: 10px;
+}
+.main-container .main-text2 {
+    font-weight: "bold";
+    margin: 10px;
+}
+
+.main-container .main-input {
+    margin: 30px;
+    width: 20%;
+    height: 40px;
+    font-size: 20px;
+}
+
+.main-container .main-button {
+    margin: 30px;
+}
