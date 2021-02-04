@@ -1,18 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { TextField } from "@material-ui/core";
 
 import EditButton from "./EditButton";
 import "../css/EditInput.css";
 
-const handleChange = (e) => {
-    this.setState({
-        [e.target.name]: e.target.value,
-    });
-    console.log(e.target.name);
-    console.log(e.target.value);
-};
-
 const EditInput = ({ value, name }) => {
+    const [info, setInfo] = useState(value);
+    const [edit, setEdit] = useState(value);
+
     return (
         <div className="card">
             <div
@@ -24,7 +19,7 @@ const EditInput = ({ value, name }) => {
                     color: "#6f6f79",
                 }}
             >
-                {name} | {value.toString()}
+                {name} | {info.toString()}
             </div>
             <div className="field">
                 <div className="text">
@@ -33,12 +28,18 @@ const EditInput = ({ value, name }) => {
                         className="main-input"
                         rowsMax={10}
                         variant="outlined"
-                        onChange={handleChange}
-                        value={value}
+                        onChange={(e) => setEdit(e.target.value)}
+                        value={edit}
                         name={name}
                     />
                 </div>
-                <EditButton title="수정" />
+                <EditButton
+                    title="수정"
+                    click={() => {
+                        setInfo(edit);
+                        alert(name + "의 정보가 수정되었습니다.");
+                    }}
+                />
             </div>
         </div>
     );

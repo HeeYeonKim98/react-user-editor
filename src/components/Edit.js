@@ -5,7 +5,7 @@ const Edit = ({ data }) => {
         <div>
             {Object.keys(data).map((row) => {
                 if (typeof data[row] !== "object") {
-                    return <EditInput value={data[row]} name={row} />;
+                    return <EditInput key={row} value={data[row]} name={row} />;
                 }
             })}
         </div>

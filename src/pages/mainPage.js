@@ -1,7 +1,6 @@
 import React from "react";
 import axios from "axios";
 
-// import EditObject from "../components/EditObject";
 import Edit from "../components/Edit";
 import "../css/main.css";
 
@@ -36,8 +35,6 @@ export default class mainPage extends React.Component {
                     <div className="cards">
                         <Edit data={this.state.userData} />
                     </div>
-
-                    {/* <div className="cards"><EditObject data={this.state.userData} /></div> */}
                 </div>
             </div>
         );
