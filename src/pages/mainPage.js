@@ -30,7 +30,7 @@ export default class mainPage extends React.Component {
         return (
             <div className="main-container">
                 <div className="main-card-container">
-                    <div className="main-topic">JSON Editor</div>
+                    <div className="main-topic">✏️ JSON Editor</div>
 
                     <div className="cards">
                         <Edit data={this.state.userData} />

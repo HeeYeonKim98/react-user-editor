@@ -19,7 +19,7 @@ const EditInput = ({ value, name }) => {
                     color: "#6f6f79",
                 }}
             >
-                {name} | {info.toString()}
+                📌 {name} | {info.toString()}
             </div>
             <div className="field">
                 <div className="text">
