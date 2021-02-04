@@ -1,0 +1,30 @@
+.editcard .editcard-card {
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  font-weight: 300;
+  padding: 20px;
+  border-radius: 5px;
+  color: #adaeb9;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3),
+    0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.editcard-field {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editcard-field .editcard-input {
+  margin-top: 20px;
+}
+
+.editcard-text {
+  font-weight: lighter;
+  font-size: 20px;
+  text-shadow: 2px 2px 3px #bbbbbb;
+  margin-bottom: 10px;
+  color: #6f6f79;
+}
