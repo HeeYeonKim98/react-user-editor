@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import EditInput from "./EditInput";
 import EditButton from "./EditButton";
-import "../css/Edit.css";
+import "../css/edit.css";
 
 const EditCard = ({ value, name }) => {
   const [info, setInfo] = useState(value);

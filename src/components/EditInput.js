@@ -1,7 +1,7 @@
 import React from "react";
 import { TextField } from "@material-ui/core";
 
-import "../css/Edit.css";
+import "../css/edit.css";
 
 const EditInput = ({ change, value, name }) => {
   return (

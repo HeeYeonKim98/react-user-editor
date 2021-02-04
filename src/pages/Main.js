@@ -4,7 +4,7 @@ import axios from "axios";
 import Edit from "../components/data/Edit";
 import EditContacts from "../components/data/EditContacts";
 import EditReviews from "../components/data/EditReviews";
-import "../css/Main.css";
+import "../css/main.css";
 
 const Main = () => {
   const [userData, setUserData] = useState([]);
