@@ -20,6 +20,6 @@ $ npm start
 
 </br>
 
-## 📌 distribute
+## 📌 Distribute
 
 [✏️ JSON Editor 바로가기](https://user-editor.herokuapp.com/)
