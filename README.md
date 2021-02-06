@@ -1,4 +1,4 @@
-### 📌 How to use
+## 📌 How to use
 
 1. `clone` the repository,
 
@@ -17,3 +17,9 @@ $ npm install
 ```
 $ npm start
 ```
+
+</br>
+
+## 📌 distribute
+
+[✏️ JSON Editor 바로가기](https://user-editor.herokuapp.com/)
