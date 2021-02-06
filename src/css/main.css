@@ -24,23 +24,6 @@ body {
   margin-top: 70px;
 }
 
-.main-card-above {
-  margin-top: 100px;
-  background-color: white;
-}
-
-.main-card-under {
-  margin-top: 50px;
-}
-
-.main-input-container {
-  margin-top: 20px;
-}
-
-.main-button-container {
-  margin-top: 20px;
-}
-
 .main-container .main-topic {
   color: #6f6f79;
   text-shadow: 2px 2px 3px #bbbbbb;
@@ -71,4 +54,11 @@ body {
 
 .main-container .main-button {
   margin: 20px;
+}
+
+.main-container .main-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }

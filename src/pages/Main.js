@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { CircularProgress } from "@material-ui/core";
 import axios from "axios";
 
 import Edit from "../components/data/Edit";
@@ -8,6 +9,7 @@ import "../css/main.css";
 
 const Main = () => {
   const [userData, setUserData] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     getData("./user.json");
@@ -22,24 +24,26 @@ const Main = () => {
       .catch((error) => {
         console.log(error);
       });
+    setLoading(false);
   };
 
   return (
     <div className="main-container">
       <div className="main-card-container">
-        <div className="main-topic">✏️ JSON Editor</div>
-
-        <div className="editcard">
-          <Edit data={userData} />
-        </div>
-
-        <div className="editcard">
-          <EditContacts data={userData} />
-        </div>
-
-        <div className="editcard">
-          <EditReviews data={userData} />
-        </div>
+        {loading ? (
+          <div className="main-loading">
+            <CircularProgress />
+          </div>
+        ) : (
+          <div>
+            <div className="main-topic">✏️ JSON Editor</div>
+            <div className="editcard">
+              <Edit data={userData} />
+              <EditContacts data={userData} />
+              <EditReviews data={userData} />
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
