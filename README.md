@@ -7,7 +7,11 @@
 </br>
 
 ## 📌 Screenshot
-
+메인 화면|name input 수정
+:-------:|:-------:
+<img width="430" alt="demo 1" src="https://user-images.githubusercontent.com/48751435/107690155-17f65280-6ced-11eb-8a28-76dbc6ac376f.png"> | <img width="430" alt="demo 2" src="https://user-images.githubusercontent.com/48751435/107690513-905d1380-6ced-11eb-891f-1098dcae5731.png">
+수정 버튼|수정 완료
+<img width="430" alt="demo 3" src="https://user-images.githubusercontent.com/48751435/107690548-99e67b80-6ced-11eb-8968-d61f93b767c3.png"> | <img width="430" alt="demo 4" src="https://user-images.githubusercontent.com/48751435/107690570-a23eb680-6ced-11eb-855c-9214d3b35fd2.png">
 
 </br>
 
